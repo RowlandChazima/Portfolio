@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-  background-color: #ffffff;
+  background-color: #1f2937
   border-bottom: 1px solid #e0e0e0;
   padding:  14px 40px;
   display: flex;
@@ -36,7 +36,7 @@ nav ul {
 }
 
 nav ul li a {
-  text-decoration: none;
+  text-decoration: #1f2937;
   color: #555555;
   font-size: 14px;
   font-weight: 500;
@@ -65,4 +65,11 @@ section {
   color: #111111;
   margin-bottom: 12px;
 }
+
+#hero p {
+    font-size: 18px;
+    color: #555555;
+    margin:6px 0;
+}
+
 

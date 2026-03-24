@@ -1,5 +1,5 @@
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 1.7;
   color: #222222;
@@ -11,7 +11,7 @@ body {
 nav {
   background-color: #ffffff;
   border-bottom: 1px solid #e0e0e0;
-  padding:  14px 40px;
+  padding: 14px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,14 +20,13 @@ nav {
 }
 
 nav-logo {
-    height: 42px;
-    width: 42px;
-    border-radius: 50%;
-    object-fit: cover;
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 nav ul {
-    nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -60,21 +59,20 @@ section {
 }
 
 #hero h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 48px;
   color: #111111;
   margin-bottom: 12px;
 }
 
 #hero p {
-    font-size: 18px;
-    color: #555555;
-    margin:6px 0;
+  font-size: 18px;
+  color: #555555;
+  margin: 6px 0;
 }
 
-
 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 30px;
   color: #111111;
   margin-bottom: 20px;
@@ -86,9 +84,8 @@ h3 {
   font-size: 16px;
   color: #333333;
   margin-bottom: 8px;
-
 }
 
-.title{
+.title {
   color: teal;
 }

@@ -6,14 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    
 
     <!-- Navigation links -->
-
-<nav>
-    <img src="photos/my logo.webp" alt="Rowland Chazima" width="150" />
+<nav> 
+    <img src="photos/my logo.webp" alt="Rowland Chazima" class="logo" width="60" />
     <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#education">Education</a></li>
@@ -22,21 +19,29 @@
     </ul>
 </nav>
 
+<div class="container"
 
-<hr />
+<!-- HERO SECTION -->
 
-<section id="hero"
-    
+<section id="hero">
+    <div class="hero-inner">
+     <span class="hero-tag">Available to opportunities</span>   
    <h1>Rowland<br /><span>Chazima</span></h1>
    <p class-="brand">Rowland Chazima</p>
    <p class="tagline">
-    Full Stack Software Development Student &mdash;GOMYCODE Kenya</p>  
+    Full Stack Software Development Student </p>  
    <p><strong>Passionate about AI,Medicine and the World of Technology</strong>
     </p>
-
+<div class="passions">
+    <span class="passion-tag">🤖 Artificial Intelligence</span>
+            <span class="passion-tag">🏥 Health Tech</span>
+            <span class="passion-tag">💻 Software Development</span>
+          </div>
+          <a href="#contact" class="cta">Get in touch →</a>
+    </div>
 </section>
 
-<hr />
+
 
 <iframe width="100%" height="315"
 src="https://www.youtube.com/embed/QXYtSszwzps"
@@ -45,10 +50,12 @@ allow="autoplay; encrypted-media"
 allowfullscreen>
 </iframe>
 
-
+<!-- ABOUT -->
 <section id="about">
+    <p class="section-label">Who I am</p>
     <a href="#about">About</a>
-
+<div class="about-grid">
+  <div class="about-text">
  <h2>About me</h2>
  <p>    I am a Form Four leaver , currently building my
         foundation in <strong>full- stack software development</strong> at GOMYCODE Kenya.
@@ -59,15 +66,27 @@ allowfullscreen>
     in healthcare and commited to coming up with solutions that can 
     make a difference.
  </p> 
+  </div>
+
+  <!-- LANGUAGES -->
+ <div class="languages-block">
  <h3>Languages</h3> 
- <ul>
-    <li>English &mdash; <em>Fluent</em></li>
-    <li>Swahili &mdash; <em>Fluent</em></li>
-    <li>French &mdash; <em>Fluent (DELF B2 Certified)</em></li>
- </ul>     
+ <div class="lang-items">
+ <span>English</span>
+              <span class="lang-badge"><em>-Fluent</em></span>
+            </div>
+            <div class="lang-items">
+              <span>Kiswahili</span>
+              <span class="lang-badge"><em>-Fluent</em></span>
+            </div>
+            <div class="lang-items">
+              <span>French</span>
+              <span class="lang-badge"><em>-B2</em></span>
 </section>
 
 <hr />
+
+<!--EDUCATION-->
 
 <section id="education">
     <a href="#education">Education</a>
@@ -143,22 +162,16 @@ allowfullscreen>
 
 <hr />
 
+<!--CONTACT-->
+
 <section id="contact">
     <h2>Contact Info</h2>
     <p>
         FEEL FREE TO REACH OUT TO ME...
     </p>
 
-    <!--FOOTER-->
     <footer>
   <ul>
-    <style>
-        ul {
-            list-style: none;
-        }
-    </style>
-
-    </style>
     <li>
         <strong>GitHub:</strong> 
         <a href="https://github.com/RowlandChazima" target="_blank">github.com/RowlandChazima</a>
@@ -167,7 +180,7 @@ allowfullscreen>
     <li>
         <strong>Instagram:</strong>
         <a href="https://www.instagram.com/ro.wland4835/" target="_blank">instagram.com/ro.wland4835</a>
-        <img src="photos/instagram.svg" alt="Instagram logo" width="20px"/>
+        <img src="photos/instagram.svg" alt="Instagram logo" width="20px"/> 
     </li>
 
     <li>
@@ -181,8 +194,7 @@ allowfullscreen>
 
   <h3>Let's Connect!</h3>
   <form action="https://formspree.io/f/xreyogza" method="POST"
-
-       <label>Name:</label><br>
+        <label>Name:</label><br>
         <input type="text" name="name" placeholder="Your Name" required><br>
 
         <label>Email:</label><br> 
@@ -197,6 +209,8 @@ allowfullscreen>
 </form>
     </footer>
 </section>
+
+<!--FOOTER-->
 <footer>
     <p>&copy; 2026 Rowland Chazima. All rights reserved.</p>
 </footer>
